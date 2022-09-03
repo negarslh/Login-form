@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ir" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/font.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container login-container">
+         <form action="#">
+            <h1>
+                ورود به سایت
+            </h1>
+        <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+        </div>
+            <span>یا از حساب کاربری خود استفاده کنید</span>
+            <input type="email" placeholder="ایمیل">
+            <input type="password" placeholder="رمز عبور">
+            <a href="#">رمز عبورتان را فراموش کرده اید؟</a>
+            <button>ورود</button>
+         </form>  
+        </div>
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>
+                    ایجاد حساب کاربری
+                </h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <span>
+                یا برای ثبت نام از ایمیل خود استفاده کنید
+                </span>
+                <input type="text" placeholder="نام و نام خانوادگی">
+                <input type="email" placeholder="ایمیل">
+                <input type="password" placeholder="رمز عبور">
+                <button>ثبت نام</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <h1>درود</h1>
+                    <p>مشخصات فردی خود را وارد کنید و سفری شگفت انگیز را با ما آغاز کنید</p>
+                    <button class="ghost" id="signUp">ثبت نام</button>
+                </div>
+                <div class="overlay-panel overlay-left">
+                    <h1>خوش آمدید</h1>
+                    <p>برای ورود به سایت لطفا اطلاعات شخصی خود را وارد کنید</p>
+                    <button class="ghost" id="logIn">ورود</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
